@@ -43,5 +43,5 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.DISCERN_STREAM_EC2_SSH_KEY }}
           REMOTE_HOST: ${{ secrets.DISCERN_STREAM_EC2_DNS  }}
           REMOTE_USER: "ubuntu"
-          TARGET: "/home/ubuntu/airflow-prod"
+          TARGET: "/root/airflow-prod"
     
