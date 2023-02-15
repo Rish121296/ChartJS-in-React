@@ -9,7 +9,7 @@ const BarChart = () => {
     <div>
       <Pie
         data={{
-          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          labels: ['DISCERN-PROD', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
           datasets: [
             {
               label: '# of votes',
